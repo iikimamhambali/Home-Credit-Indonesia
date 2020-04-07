@@ -67,6 +67,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    implementation project(":domain")
+
     implementation libraries.kotlinJre7
     implementation libraries.okHttp3
     implementation libraries.okhttp3Logging
