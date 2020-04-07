@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name='Home Credit Indonesia'
+include ':app', ':data', ':domain'
+rootProject.name = 'Home Credit Indonesia'
