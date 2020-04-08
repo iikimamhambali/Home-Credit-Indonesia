@@ -1,4 +1,4 @@
-package com.android.homecreditindonesia.helper
+package com.android.data.helper
 
 import androidx.lifecycle.LiveData
 import retrofit2.Call

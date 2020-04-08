@@ -1,4 +1,4 @@
-package com.android.data.helper
+package com.android.domain.helper
 
 import android.os.Handler
 import android.os.Looper

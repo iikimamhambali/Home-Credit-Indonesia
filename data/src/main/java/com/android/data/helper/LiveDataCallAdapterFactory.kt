@@ -1,4 +1,4 @@
-package com.android.homecreditindonesia.helper
+package com.android.data.helper
 
 import retrofit2.CallAdapter
 import retrofit2.Retrofit
@@ -10,6 +10,11 @@ class LiveDataCallAdapterFactory: CallAdapter.Factory() {
         val observableType =
             getParameterUpperBound(0, returnType as ParameterizedType) as? ParameterizedType
                 ?: throw IllegalArgumentException("resource must be parameterized")
-        return LiveDataCallAdapter<Any>(getParameterUpperBound(0, observableType))
+        return LiveDataCallAdapter<Any>(
+            getParameterUpperBound(
+                0,
+                observableType
+            )
+        )
     }
 }

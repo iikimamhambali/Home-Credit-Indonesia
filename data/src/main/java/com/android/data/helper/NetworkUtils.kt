@@ -1,4 +1,4 @@
-package com.android.homecreditindonesia.helper
+package com.android.data.helper
 
 import android.content.Context
 import android.net.ConnectivityManager

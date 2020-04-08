@@ -1,13 +1,10 @@
-package com.android.homecreditindonesia.base
+package com.android.data.helper
 
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
-import com.android.data.helper.*
-import com.android.homecreditindonesia.helper.ApiErrorResponse
-import com.android.homecreditindonesia.helper.ApiResponse
-import com.android.homecreditindonesia.helper.ApiSuccessResponse
+import com.android.domain.helper.AppExecutors
 import java.io.IOException
 
 abstract class BaseRepositoryLiveData<Type>(private val appExecutors: AppExecutors) {

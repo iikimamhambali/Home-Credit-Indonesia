@@ -1,6 +1,5 @@
 package com.android.homecreditindonesia.dependencies
 
-import com.android.homecreditindonesia.dependencies.module.mapperModule
-import com.android.homecreditindonesia.dependencies.module.networkModule
+import com.android.homecreditindonesia.dependencies.module.*
 
-val library = listOf(networkModule, mapperModule)
+val library = listOf(appModule, networkModule, mapperModule, repositoryModule, useCaseModule)
